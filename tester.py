@@ -1,1 +1,4 @@
-print("test")
+from geo import utils
+
+if __name__ == "__main__":
+    print(utils.dummy())
