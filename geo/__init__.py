@@ -1,1 +1,1 @@
-from . import utils
+__all__ = ['hypotenuse', 'circle_area']
