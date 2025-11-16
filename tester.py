@@ -3,12 +3,12 @@ import math
 
 def main():
     data = sys.stdin.read().strip()
+
     if not data:
-        # 입력이 없을 때 기본값
         c = 0.0
     else:
-        # "c = 5.0" 형태를 처리
         try:
+            # 입력이 "c = 5.0" 형태라고 가정
             c = float(data.split('=')[1])
         except:
             c = 0.0
